@@ -1,0 +1,127 @@
+body {
+	background-color: yellow;
+	color:  black;
+	font-family: Calibri, serif;
+	font-size: 15px;
+	font-weight: lighter;
+	background-color: rgb(220, 220, 220);
+	text-justify:  justify;
+}
+
+h1 {
+	color:  Pink;
+	font-family: Arial, sans-serif;
+	line-height: 3.4;
+	font-weight: bolder;
+	text-justify: justify;
+}
+
+h2 {
+	color: rgb(20, 200, 200);
+	font-family: Courrier;
+}
+ 
+a {
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(241, 0, 134);
+}
+
+p1, p2, p3 {
+	text-justify: justify;
+	font-family: Calibri;
+	font-weight: bolder;
+}
+
+
+div {
+	background: white;
+	border: 2px solid block;
+	margin:  10px;
+
+}
+
+.element-style {
+	background: whites;
+	padding: 60px;
+	margin:  50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+
+}
+
+/* Custom design with class */
+
+.container{
+	width:  700px;
+	margin:  40px auto;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width:  620px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width:  400px;
+	}
+}
+
+.card-white {
+	background-color:  white;
+	padding:  40px;
+	box-shadow:  0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin:  20px 0px;
+	text-align:  center;
+}
+
+.img-circle {
+	border-radius:  5%;
+	height: 100px;
+	width: 100px;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	padding:  15px 20px;
+	border-radius:  4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left:  0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: yellow;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: blue;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
